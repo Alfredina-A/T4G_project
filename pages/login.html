@@ -3,41 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../src/style.css">
 </head>
 <body>
-    <header>
+    <div class="flex">
         <nav class="nav">
          <ul>
-           <img src="../images/logo.jpeg" alt="">
-         <a href="../index.html">Home</a>
-         <a href="../pages/aboutus.html">About us</a>
-         <a href="../pages/product.html">Our products</a>
-         <a href="../pages/login.html">Login</a>
-         <a href="../pages/signup.html">Sign up</a>
-         <a href="../pages/contact.html">Contact us</a>
+          
+          <li><a href="../index.html">Home</a></li>
+          <li> <a href="../pages/aboutus.html">About us</a></li>
+          <li><a href="../pages/product.html">Our products</a></li>
+          <li><a href="../pages/login.html">Login</a></li>
+          <li><a href="../pages/signup.html">Sign up</a></li>
+          <li> <a href="../pages/contact.html">Contact us</a></li>
          <section class=""></section>
        </ul>
-     </nav>
-     </header>
-     <section class="new">
-        <h3> Login</h2>
+      </nav>
+      <div class="body">
+      <header> <img src="../images/logo.jpeg" alt=""></header>
+     <section class="main">
+     <!-- <section class="new"> -->
         <form action="" class="form">
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="">
+            <h2> Login</h2>
+            <div class="form-div">
+                <div class="label">
+                    <label for="name">Name:</label>
+                </div>
+                <div>
+                    <input type="text" name="name" id="" required>
+                </div>
             </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="">
+            <div class="form-div">
+                <div class="label">
+                    <label for="email">Email:</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="">
+                </div>
             </div>
-            <div>
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="">
+            <div class="form-div">
+                <div class="label">
+                    <label for="password">Password:</label>
+                </div>
+                <div>
+                    <input type="password" name="password" id="" required>
+                </div>
             </div>
+                <div class="form-div">
+                    <input type="submit" value="login">
+                </div>
         </form>
-     </section>
+     <!-- </section> -->
+    </section>
     
 </body>
 </html>
