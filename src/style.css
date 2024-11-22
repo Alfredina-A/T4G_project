@@ -128,6 +128,7 @@ h3{
     text-align: center;
     margin-top: 20px;
     padding: 20px;
+    height: 55%;
    
 }
 
@@ -164,7 +165,7 @@ margin-bottom: 20px;
      background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* justify-conten/t: center; */
+    justify-content: center;
     /* position: ; */
     top: 0;
     height: 60vh;
@@ -182,6 +183,12 @@ margin-bottom: 20px;
    
 }
 
+.marn .form .form-div{
+    display: flex;
+margin-bottom: 20px;
+/* align-items:end; */
+}
+
 .marn .form .form-div .label{
     width: 30%;
     text-align: left;
@@ -189,7 +196,7 @@ margin-bottom: 20px;
 }
 .maint{
     border: 2px double cornflowerblue;
-    background-image: url(../images/contactbackground.jpeg); 
+    background-image: url(../images/contact.webp); 
      background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -198,3 +205,27 @@ margin-bottom: 20px;
     top: 0;
     height: 80vh;
 }
+
+.maint .form {
+    justify-content: center;
+    width: 50%;
+    margin:0 auto;
+    background-color: rgb(226, 160, 174) ;
+    opacity: 0.85;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.maint .form .form-div{
+    display: flex;
+margin-bottom: 20px;
+/* align-items:end; */
+}
+
+.maint .form .form-div .label{
+    width: 30%;
+    text-align: left;
+/* align-items:end; */
+}
+   
