@@ -9,7 +9,7 @@
     justify-content: center;
     width: 100vw;
     height: 100%;
-    /* padding: 0 5%; */
+
 }
 
 .nav{
@@ -26,9 +26,6 @@
 .nav ul{
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap;  
-   justify-content: space-between;
-   flex-direction: column; */
    padding: 20px 0 0 0;
    list-style: none;
 }
@@ -42,6 +39,11 @@
     text-decoration: none;
 }
 
+.nav .active{
+    background-color: rgb(231, 198, 157);
+    border-radius: 7px;
+    padding:  0 10px;
+}
 .body{
     width: 80%;
     margin-left: 15%;
@@ -50,10 +52,7 @@
 .pac h3{
     background-color: blanchedalmond;
 }
- /* body{
-     background-size: cover;
-    }  */
-
+ 
  header{
     background-image: url(../images/background.jpeg);
     background-repeat: no-repeat;
@@ -72,8 +71,7 @@
     gap: 50px;
     flex-wrap: wrap;
     border: 2px solid black;
-   
-    /* flex-direction: row; */
+
     }
 
     .pic{
@@ -114,7 +112,7 @@ h3{
 /* styling for login form */
 
 .main h3{
-    /* color:rgb(243, 247, 246); */
+   
     width: 10%;
     margin: 0 auto;
 }
@@ -136,13 +134,13 @@ h3{
 .main .form .form-div{
     display: flex;
 margin-bottom: 20px;
-/* align-items:end; */
+
 }
 
 .main .form .form-div .label{
     width: 30%;
     text-align: left;
-/* align-items:end; */
+
 }
 
 .main{
@@ -158,6 +156,7 @@ margin-bottom: 20px;
     height: 60vh;
 }
 
+/* sign up page */
 .marn{
     display: flex;
     border: 2px double cornflowerblue;
@@ -194,6 +193,8 @@ margin-bottom: 20px;
     text-align: left;
 /* align-items:end; */
 }
+
+/* contact us page */
 .maint{
     border: 2px double cornflowerblue;
     background-image: url(../images/contact.webp); 
@@ -228,4 +229,37 @@ margin-bottom: 20px;
     text-align: left;
 /* align-items:end; */
 }
-   
+
+   /* about us page */
+   .process{ 
+    display: flex;
+    background-color: rgb(249, 214, 170);
+   }
+
+   .process .pic-div{
+    height: 300px;
+    width: 32%;
+   }
+
+   .process .pic-div .pic{
+    width: 100%;
+   }
+
+   .process p{
+    width: 90%;
+    text-align: center;
+   }
+
+   .fitting{ 
+    display: flex;
+    background-color: rgb(245, 198, 116);
+   }
+
+   .fitting .pic-div{
+    height: 450px;
+    width: 35%;
+   }
+
+   .fitting .pic-div .pic{
+    width: 100%;
+   }
