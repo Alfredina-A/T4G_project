@@ -17,9 +17,10 @@
     left: 20px  ;
     width: 15%;
     height: 100vh;
-    background-color: blanchedalmond; 
+    background-color: rgb(249, 209, 197); 
     margin-bottom: 50px;
     gap: 70px;
+    text-align: left;
 
 }
 
@@ -28,11 +29,15 @@
     flex-direction: column;
    padding: 20px 0 0 0;
    list-style: none;
+   text-align: left;
 }
 
 .nav li{
     align-self: center;
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
+    background-color: rgb(245, 182, 161);
+    padding: 0 100%;
+ 
 }
 
 .nav ul li a{
@@ -40,9 +45,10 @@
 }
 
 .nav .active{
-    background-color: rgb(231, 198, 157);
-    border-radius: 7px;
-    padding:  0 10px;
+    background-color: rgb(231, 166, 157);
+    /* border-radius: 7px; */
+    padding:  0 30px;
+    
 }
 .body{
     width: 80%;
@@ -260,6 +266,17 @@ margin-bottom: 20px;
     width: 35%;
    }
 
+   .fitting .pic-div2{
+    height: 450px;
+    width:400px;
+   }
+/* 
    .fitting .pic-div .pic{
     width: 100%;
-   }
+   } */
+
+   .footer{
+    display: flex;
+gap: 10px;
+justify-content: space-between;
+}
