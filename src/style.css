@@ -29,14 +29,16 @@
     flex-direction: column;
    padding: 20px 0 0 0;
    list-style: none;
+   justify-content: center;
+   width: 100%;
    text-align: left;
 }
 
 .nav li{
-    align-self: center;
-    /* padding: 0.5rem 0; */
+    align-items:center ;
+    padding: 0.5rem 0;
     background-color: rgb(245, 182, 161);
-    padding: 0 100%;
+    padding: 10px 20px;
  
 }
 
@@ -48,6 +50,7 @@
     background-color: rgb(231, 166, 157);
     /* border-radius: 7px; */
     padding:  0 30px;
+    width: 100%;
     
 }
 .body{
@@ -55,8 +58,9 @@
     margin-left: 15%;
 }
    
-.pac h3{
-    background-color: blanchedalmond;
+.first img{
+    height: 55vh;
+    width: 40%;
 }
  
  header{
@@ -74,9 +78,11 @@
     background-color: bisque;
     display: flex;
     justify-content: space-around;
-    gap: 50px;
+    gap:20px;
     flex-wrap: wrap;
     border: 2px solid black;
+    max-width: 100%;
+    box-sizing: border-box;
 
     }
 
@@ -84,6 +90,12 @@
         background-color: antiquewhite;
         width: 250px;
     height: 250px;
+    background-size: 33%; 
+    background-repeat: no-repeat;
+}
+
+.pac{
+    height: 65vh;
 }
 
     .fit{
@@ -103,7 +115,7 @@
     }
 
 .img2 img{
-    margin-top: 50px;
+    margin-top: 0 auto;
     height: 300px;
     width: 75%;
     
@@ -227,6 +239,7 @@ margin-bottom: 20px;
 .maint .form .form-div{
     display: flex;
 margin-bottom: 20px;
+justify-content: center;
 /* align-items:end; */
 }
 
@@ -238,27 +251,29 @@ margin-bottom: 20px;
 
    /* about us page */
    .process{ 
-    display: flex;
     background-color: rgb(249, 214, 170);
+    background-image: url(../images/about.jpeg);
+     background-size: 33%; 
+    background-repeat: no-repeat;
+    color:rgb(112, 83, 83);
+    font-size: 40px;
    }
+   
 
-   .process .pic-div{
-    height: 300px;
-    width: 32%;
-   }
-
-   .process .pic-div .pic{
-    width: 100%;
-   }
-
+ 
    .process p{
     width: 90%;
     text-align: center;
    }
 
    .fitting{ 
-    display: flex;
-    background-color: rgb(245, 198, 116);
+    background-image: url(../images/fitted.jpg);
+    /* background-size: cover; */
+    background-size: 33%; 
+    background-repeat: no-repeat;
+    height: 80vh;
+    color:rgb(112, 83, 83);
+    font-size: 40px;
    }
 
    .fitting .pic-div{
@@ -270,10 +285,14 @@ margin-bottom: 20px;
     height: 450px;
     width:400px;
    }
-/* 
-   .fitting .pic-div .pic{
-    width: 100%;
-   } */
+
+   section{
+    /* background-image: url(../images/service.jpg); */
+    background-size: cover;
+    height: 80vh;
+    color:rgb(112, 83, 83);
+    margin-top: 20px;
+   }
 
    .footer{
     display: flex;
