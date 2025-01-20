@@ -39,7 +39,7 @@
     padding: 0.5rem 0;
     background-color: rgb(245, 182, 161);
     padding: 10px 20px;
-    height: 20px;
+    /* height: 20px; */
  
 }
 
@@ -98,6 +98,10 @@ header img{
     /* box-sizing: border-box; */
     }
 
+    .hide-all{
+        display: none;
+    }
+
 
 
     .fit{
@@ -137,6 +141,10 @@ h3{
     height: 30px;
     text-align: right;
     width: 100%;
+}
+
+.close{
+    display: none;
 }
 
 /* styling for login form */
@@ -351,20 +359,60 @@ justify-content: center;
     .order{
         display: flex;
         justify-content: space-between;
+        background-color: rgb(255, 233, 233);
+    }
+
+    .imorder{
+        width: 30%;
     }
 
     .textorder{
-        /* margin: 30px; */
+        /* margin: 30px 0 0 0; */
         padding:5px 15px;
         text-align: left;
-        width: 35%;
+        width: 100%;
         gap: none;
     }
+
+    .textord{
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 30%;
+        justify-content: space-between;
+    }
+
+    .textorde{
+        margin: 45px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 30%;
+        gap: 50px;
+        justify-content: space-between;
+        
+    }
+
    .footer{
     padding: 5px 0;
     display: flex;
     gap: 10px;
     justify-content: space-between; 
     background-color: rgb(254, 241, 231 );
+
+    }
+
+    /* all styling for elements in JS */
+    .black{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        /* margin-top: 50px; */
+        /* text-align: justify; */
+        /* justify-content: center; */
 
     }

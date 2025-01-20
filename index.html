@@ -33,7 +33,6 @@
         </div>  
         <div class="img2">
           <img src="images/blk fashion.jpeg" alt="">
-          <p>Black casual wear </p>
         </div>
         <div class="img2">
           <img src="images/new.jpeg" alt="">
@@ -41,13 +40,43 @@
         <div class="img2">
           <img src="images/style.jpeg" alt="">
         </div>
-        <div class="img2">
-          <img src="images/OIP.jpeg" alt="">
+        
+        <div class="more">
+          <button class="open">More</button>
         </div>
+        <section class="all hide-all">
+          <div class="img2 new">
+            <img src="images/casual.jpeg" alt="">
+          </div>
+          <div class="img2 new">
+            <img src="images/style2.jpeg" alt="">
+          </div>
+          <div class="img2 new">
+            <img src="images/mx.jpeg" alt="">
+          </div>
+        </section>
         <div class="tex">
-          <button>More</button>
+          <button class="close hide-all">View less</button>
         </div>
-      </section> 
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const moreButton = document.querySelector('.open');
+          const viewLessButton = document.querySelector('.close');
+          const hiddenSection = document.querySelector('.hide-all');
+
+          moreButton.addEventListener('click', function() {
+            hiddenSection.classList.remove('hide-all');
+            moreButton.style.display = 'none';
+            viewLessButton.style.display = 'block';
+          });
+
+          viewLessButton.addEventListener('click', function() {
+            hiddenSection.classList.add('hide-all');
+            moreButton.style.display = 'block';
+            viewLessButton.style.display = 'none';
+          });
+        });
+      </script>
       <div class="first">
         <img src="images/home2.avif " alt="">
         <img src="images/home.jpg" alt="">
